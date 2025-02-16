@@ -1,0 +1,22 @@
+.footer{
+    width: 100%;
+    max-height: 120px;
+
+
+}
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.footer-image img{
+    max-width: 300px;
+}
+.footer-credit p{
+    text-align: center;
+}
+.footer-credit a{
+    color:tomato
+}
