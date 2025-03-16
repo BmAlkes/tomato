@@ -4,7 +4,7 @@ import { useNavigate, useSearchParams } from "react-router-dom";
 import { StoreContext } from "../../context/StoreContext";
 import axios from "axios";
 
-export const Verify = () => {
+ const Verify = () => {
   const [searchParams, setSearchParams] = useSearchParams();
 
   const success = searchParams.get("success");
@@ -36,3 +36,5 @@ export const Verify = () => {
     </div>
   );
 };
+
+export default Verify
