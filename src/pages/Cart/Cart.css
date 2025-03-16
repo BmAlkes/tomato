@@ -1,7 +1,9 @@
 .cart {
   margin-top: 100px;
-  height: 100dvh;
+  height: 100%;
 }
+
+
 
 .cart-items-title {
   display: grid;
