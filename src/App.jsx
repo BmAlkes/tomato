@@ -6,7 +6,7 @@ import Cart from "./pages/Cart/index";
 import PlaceOrder from "./pages/PlaceOrder/index";
 import Footer from "./components/Footer";
 import LoginPopUp from "./components/LoginPopUp";
-import { Verify } from "./pages/Verify/verify";
+import  Verify  from "./pages/Verify/verify";
 import MyOrders from "./pages/MyOrders";
 
 const App = () => {
